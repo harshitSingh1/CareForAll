@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 40 20% 98%;
+    --foreground: 200 15% 20%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 200 15% 20%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 200 15% 20%;
+
+    /* Teal to aqua gradient for primary */
+    --primary: 180 75% 45%;
+    --primary-light: 180 75% 60%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Lavender to purple for secondary */
+    --secondary: 260 60% 75%;
+    --secondary-dark: 260 60% 60%;
+    --secondary-foreground: 260 80% 20%;
+
+    /* Warm coral/peach accent */
+    --accent: 15 85% 70%;
+    --accent-dark: 15 85% 60%;
+    --accent-foreground: 15 90% 20%;
+
+    --muted: 40 20% 95%;
+    --muted-foreground: 200 10% 45%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 200 20% 88%;
+    --input: 200 20% 90%;
+    --ring: 180 75% 45%;
+
+    --radius: 1.5rem;
+
+    /* Gradient definitions */
+    --gradient-primary: linear-gradient(135deg, hsl(180 75% 45%), hsl(180 75% 60%));
+    --gradient-secondary: linear-gradient(135deg, hsl(260 60% 75%), hsl(260 60% 60%));
+    --gradient-accent: linear-gradient(135deg, hsl(15 85% 70%), hsl(15 85% 60%));
+    --gradient-hero: linear-gradient(135deg, hsl(180 75% 45%) 0%, hsl(200 70% 55%) 50%, hsl(260 60% 70%) 100%);
+    
+    /* Glassmorphism */
+    --glass-bg: hsla(0, 0%, 100%, 0.7);
+    --glass-border: hsla(200, 20%, 88%, 0.3);
+
+    /* Shadows */
+    --shadow-soft: 0 8px 32px hsla(180, 75%, 45%, 0.1);
+    --shadow-glow: 0 0 40px hsla(180, 75%, 60%, 0.2);
+    --shadow-card: 0 4px 24px hsla(200, 15%, 20%, 0.08);
+
+    /* Animation */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .dark {
+    --background: 200 20% 10%;
+    --foreground: 40 20% 95%;
+
+    --card: 200 18% 15%;
+    --card-foreground: 40 20% 95%;
+
+    --popover: 200 18% 15%;
+    --popover-foreground: 40 20% 95%;
+
+    --primary: 180 75% 50%;
+    --primary-light: 180 75% 65%;
+    --primary-foreground: 200 20% 10%;
+
+    --secondary: 260 50% 65%;
+    --secondary-dark: 260 50% 50%;
+    --secondary-foreground: 40 20% 95%;
+
+    --accent: 15 75% 65%;
+    --accent-dark: 15 75% 55%;
+    --accent-foreground: 200 20% 10%;
+
+    --muted: 200 18% 20%;
+    --muted-foreground: 200 10% 60%;
+
+    --destructive: 0 62.8% 50%;
+    --destructive-foreground: 40 20% 95%;
+
+    --border: 200 18% 25%;
+    --input: 200 18% 25%;
+    --ring: 180 75% 50%;
+
+    --glass-bg: hsla(200, 18%, 15%, 0.7);
+    --glass-border: hsla(200, 18%, 25%, 0.3);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* PIN input masking */
+.text-security-disc {
+  -webkit-text-security: disc;
+  font-family: text-security-disc;
+}
+
+@font-face {
+  font-family: text-security-disc;
+  src: url("data:font/woff2;charset=utf-8;base64,d09GMgABAAAAAANUAAsAAAAABzQAAAMGAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHIJYBmAAgkIKUFYLBgABNgIkAwgEIAWEPQczG6gFRlFTzMpIfh7wAh84ow95RJDc9/X09BLID+xqIJOJHLVixnqnE4lkUgvL0P+fK+Y9zv9CG+3JT1X0K0P9kpYd6OtU1B4fQJ7sNkJq4MAQxQX/3Sv5BRQdKLIb5bRJsP+faQALAD8D+C8QD8ADAAB5AQA/cEwEwAdh/J+9ALAxsA4TI9EQkd8Y") format("woff2");
+}

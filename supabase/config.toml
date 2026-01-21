@@ -1,0 +1,10 @@
+project_id = "ppvvgrbdudokwoonavxz"
+
+[functions.chat]
+verify_jwt = true
+
+[functions.analyze-patterns]
+verify_jwt = true
+
+[functions.generate-strategies]
+verify_jwt = true
