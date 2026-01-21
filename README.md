@@ -2,7 +2,7 @@
 **Fast, preventive, and compassionate digital health + mental wellness support - verified when it matters.**
 
 🌐 Live Demo: https://care-flow-wellness.lovable.app  
-💻 GitHub: https://github.com/harshitSingh1/care-flow-wellness  
+💻 GitHub: https://github.com/harshitSingh1/CareForAll 
 
 ---
 
@@ -125,7 +125,7 @@ Most tools focus on either AI chat OR telemedicine OR journaling—CareForAll co
 
 ## 5) Visualization (What does it look like?)
 ✅ Live Website Demo: https://care-flow-wellness.lovable.app  
-✅ GitHub Repo: https://github.com/harshitSingh1/care-flow-wellness  
+✅ GitHub Repo: https://github.com/harshitSingh1/CareForAll  
 
 ---
 
@@ -237,10 +237,10 @@ WHO emphasizes privacy and confidentiality as key elements for self-care interve
 
 ```bash
 # 1) Clone the repository
-git clone https://github.com/harshitSingh1/care-flow-wellness.git
+git clone https://github.com/harshitSingh1/CareForAll.git
 
 # 2) Go into project folder
-cd care-flow-wellness
+cd CareForAll
 
 # 3) Install dependencies
 npm install
