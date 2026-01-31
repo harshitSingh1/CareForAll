@@ -2,7 +2,6 @@
 **Fast, preventive, and compassionate digital health + mental wellness support - verified when it matters.**
 
 🌐 Live Demo: https://care-flow-wellness.lovable.app  
-💻 GitHub: https://github.com/harshitSingh1/CareForAll 
 
 ---
 
@@ -36,8 +35,6 @@ Mental and physical health challenges affect a huge population globally:
 - A person tries random home remedies without clarity on safety precautions or when to consult a doctor.
 
 ---
-
-# ✅ Detailed Project Description For Clarity
 
 ## 1) Description of the Idea (What is CareForAll?)
 **CareForAll** is a preventive digital health and mental wellness platform that combines:
@@ -123,13 +120,7 @@ Most tools focus on either AI chat OR telemedicine OR journaling—CareForAll co
 
 ---
 
-## 5) Visualization (What does it look like?)
-✅ Live Website Demo: https://care-flow-wellness.lovable.app  
-✅ GitHub Repo: https://github.com/harshitSingh1/CareForAll  
-
----
-
-## 6) User Feedback (Validation)
+## 5) User Feedback (Validation)
 We tested usability and clarity with students and general users. Key feedback themes included:
 
 - “I like how fast it gives a safe direction instead of random Googling.”
@@ -142,7 +133,7 @@ This feedback helped us improve clarity, navigation, and feature flow.
 
 ---
 
-## 7) Business Model (Economic viability)
+## 6) Business Model (Economic viability)
 CareForAll can be economically viable through:
 
 - **B2B licensing** for clinics, wellness centers, universities, HR programs  
@@ -152,7 +143,7 @@ CareForAll can be economically viable through:
 
 ---
 
-## 8) Implementation & Feasibility (How it works + next steps)
+## 7) Implementation & Feasibility (How it works + next steps)
 CareForAll is designed as an MVP that can scale.
 
 ### Technical Feasibility
@@ -169,7 +160,7 @@ CareForAll is designed as an MVP that can scale.
 
 ---
 
-## 9) Data Requirements + DSGVO/GDPR & Security
+## 8) Data Requirements + DSGVO/GDPR & Security
 CareForAll handles sensitive wellness information carefully.
 
 ### What data is used?
